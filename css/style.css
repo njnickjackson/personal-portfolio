@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
-
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
@@ -34,13 +32,6 @@
         --fs-body: 1.125rem;
     }
 }
-
-/* General styles */
-
-/* endable this to add smooth scrolling */
-/* html {
-    scroll-behavior: smooth;
-} */
 
 
 body {
@@ -291,7 +282,7 @@ header {
 
 
 
-/*  My services section  */
+/*  My skills section  */
 
 .my-services {
     background-color: var(--clr-dark);
