@@ -13,7 +13,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #2ebb85;
+    --clr-accent: rgb(15, 233, 175);
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -407,6 +407,9 @@ header {
     opacity: .5;
 }
 
+.live-version {
+    text-align: center;
+}
 
 /* footer */
 
