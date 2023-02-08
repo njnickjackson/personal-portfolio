@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
-
 :root {
     --ff-primary: 'Lora', serif;
     --ff-secondary: 'Roboto Slab', serif;
@@ -36,12 +34,6 @@
 }
 
 /* General styles */
-
-/* endable this to add smooth scrolling */
-/* html {
-    scroll-behavior: smooth;
-} */
-
 
 body {
     background: var(--color-light);
@@ -427,6 +419,16 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .5;
+}
+
+@media (max-width: 600px) {
+    .portfolio__img {
+        max-width: 400px;
+    }
+
+    .portfolio__item {
+        background: none;
+    }
 }
 
 
