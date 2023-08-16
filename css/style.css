@@ -247,6 +247,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    border-radius: 5px;
 }
 
 .section__subtitle--intro {
